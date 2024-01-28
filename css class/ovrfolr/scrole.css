@@ -1,0 +1,20 @@
+*{
+    /* scroll-snap-type: proximity; */
+    scroll-behavior: smooth;
+}
+
+div{
+    width: 400px;
+    height: 200px;
+    /* scroll-behavior: unset; */
+    /* scroll-behavior: initial; */
+    /* scroll-behavior: smooth; */
+    /* scroll-behavior: inherit; */
+    
+}
+.d4{
+    background-color: rgb(153, 51, 56);
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    overflow: scroll;
+}

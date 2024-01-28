@@ -1,0 +1,517 @@
+<meta charset="utf-8"/>
+<co-content>
+ <p>
+  Do you know the fundamentals of HTML, CSS and JavaScript? Perhaps you learned about these technologies from another course. Either way, a quick summary will be useful so let's explore some fundamental HTML, CSS and JavaScript principles and practices.
+ </p>
+ <p>
+  In this reading, let’s take a practical approach, and revisit some of the development techniques you'll need to be comfortable with before learning React.
+ </p>
+ <p>
+  To get the most out of this course on React basics, you should first understand the fundamental methods and concepts of JavaScript. Otherwise, you may feel like you’re a child learning to run before you can walk. React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
+ </p>
+ <p>
+  React apps are built using modern JavaScript features, which are commonly known as ES6. Developers use React to develop Singe Page Applications. And you can also develop mobile applications with React Native.
+ </p>
+ <p>
+  As an aspiring developer, you may opt for a ‘learn as you go approach’ regarding JavaScript and React. But this may not help your productivity and even at times frustrate you. This is because you may confuse code or functionality that is plain JavaScript, or code that is React.
+ </p>
+ <p>
+  For example, with a solid foundational knowledge of JavaScript, you can quickly identify code that is JavaScript ES6 and code that is React. And throughout this course, there will be help for you along the way with some friendly reminders.
+ </p>
+ <p>
+  Also, keep in mind that you are using React to build user interfaces which also include HTML and CSS code.
+ </p>
+ <p>
+  So let’s begin with the fundamental HTML knowledge needed to learn React.
+ </p>
+ <h2 level="2" variant="h2semibold">
+  HTML
+ </h2>
+ <p>
+  Recall that HTML is used to describe the structure of Web pages. Developers use HTML elements with their opening and closing tags to “mark up” an HTML document.
+ </p>
+ <p>
+  These elements form the structure of a web page and describe what to display to the web browser. When it comes to HTML it's important to know about:
+ </p>
+ <ol bullettype="numbers">
+  <li>
+   <p>
+    The purpose of HTML in the web browser,
+   </p>
+  </li>
+  <li>
+   <p>
+    the use of HTML tags and correct syntax,
+   </p>
+  </li>
+  <li>
+   <p>
+    and how HTML elements are used in a web document.
+   </p>
+  </li>
+ </ol>
+ <p>
+  Another important concept to know about when you're talking about HTML is the Document Object Model, or DOM.
+ </p>
+ <p>
+  Users need to be able to interact with elements on a web page. This means that an HTML document must be represented in a way that JavaScript code can query and update it. And that's the function of the DOM. It's a model of the objects in your HTML file.
+ </p>
+ <p>
+  And web developers interact with the DOM through JavaScript to update content, set up events and animate HTML elements.
+ </p>
+ <p>
+  Before you learn React, it’s advisable that you are comfortable with the following HTML tags and concepts
+ </p>
+ <h3 level="3" variant="h3bold">
+  Layout &amp; Style
+ </h3>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    <var>
+     &lt;html&gt;
+    </var>
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    <var>
+     &lt;head&gt;
+    </var>
+   </p>
+  </li>
+ </ul>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    <var>
+     &lt;body&gt;
+    </var>
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    <var>
+     &lt;div&gt;
+    </var>
+   </p>
+  </li>
+ </ul>
+ <h3 level="3" variant="h3bold">
+  Text formatting &amp; lists
+ </h3>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="3">
+   <p>
+    <var>
+     &lt;h1&gt;…&lt;h6&gt;
+    </var>
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="4">
+   <p>
+    <var>
+     &lt;p&gt;
+    </var>
+   </p>
+  </li>
+ </ul>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    <var>
+     &lt;ul&gt;&lt;li&gt;
+    </var>
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    <var>
+     &lt;b&gt;&lt;i&gt;
+    </var>
+   </p>
+  </li>
+ </ul>
+ <h3 level="3" variant="h3bold">
+  Images and links
+ </h3>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="3">
+   <p>
+    <var>
+     &lt;img src=""&gt;
+    </var>
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="4">
+   <p>
+    <var>
+     &lt;a href=""&gt;
+    </var>
+   </p>
+  </li>
+ </ul>
+ <h3 level="3" variant="h3bold">
+  Linking and Meta
+ </h3>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    <var>
+     &lt;link&gt;
+    </var>
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    <var>
+     &lt;title&gt;
+    </var>
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="3">
+   <p>
+    <var>
+     &lt;meta&gt;
+    </var>
+   </p>
+  </li>
+ </ul>
+ <h3 level="3" variant="h3bold">
+  Semantic
+ </h3>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    <var>
+     &lt;header&gt;
+    </var>
+   </p>
+  </li>
+ </ul>
+ <h2 level="2" variant="h2semibold">
+  CSS
+ </h2>
+ <p>
+  CSS (Cascading Style Sheets) is the code that you use to style HTML. You need to be familiar with basic CSS concepts before you start learning React. This is because you will need to style your React components as well, and basic CSS knowledge will help your learning journey.
+ </p>
+ <p>
+  Before you learn React, make sure you are comfortable with these CSS styling options:
+ </p>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    Font styling (font size, font color, etc.)
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    Flex Box Layout (Layout of items using CSS Flex Box Layout)
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="3">
+   <p>
+    CSS Selectors
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="4">
+   <p>
+    Position, Padding, Margins and Display
+   </p>
+  </li>
+ </ul>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    Colors, Background and Icons
+   </p>
+  </li>
+ </ul>
+ <p>
+  Y​ou can refresh your knowledge of HTML and CSS in the Meta course titled:
+  <a href="https://www.coursera.org/learn/introduction-to-front-end-development" title="Introduction to Front-End Development">
+   Introduction to Front-End Development
+  </a>
+ </p>
+ <h2 level="2" variant="h2semibold">
+  JavaScript fundamentals and ES6
+ </h2>
+ <p>
+  React is completely written in JavaScript and uses the more modern version of JavaScript which is ES6. While learning React, you should already know JavaScript fundamentals.
+ </p>
+ <p>
+  JavaScript is the programming language and React is a JavaScript UI library. This means the first step is to be proficient at JavaScript.
+ </p>
+ <p>
+  Here are some of the JavaScript topics that you need to be comfortable with before you begin your journey learning React.
+ </p>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    Data types
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    Using var, let and const
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="3">
+   <p>
+    Conditionals and Loops
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="4">
+   <p>
+    Using objects, arrays and functions
+   </p>
+  </li>
+ </ul>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    ES6 Arrow functions
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    In-built functions such as map(), forEach() and promises.
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="3">
+   <p>
+    Destructuring Arrays and Objects
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="4">
+   <p>
+    Error Handling
+   </p>
+  </li>
+ </ul>
+ <h2 level="2" variant="h2semibold">
+  Package Manager (Node + npm)
+ </h2>
+ <p>
+  React is a UI library, and you will encounter that many times you will need to add other packages to your React application. A package in JavaScript contains all the files needed for a module. To install these packages effectively and manage their dependencies you can use a package manager like NPM (Node Package Manager).
+ </p>
+ <p>
+  You can install npm by installing Node.js, which will then automatically install npm.
+ </p>
+ <p>
+  You need to be comfortable with using npm as your package manager, since you will be using npm to install packages within your React application.  Make sure you are aware of how to do the following with npm before you get started on this course.
+ </p>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    Installation command to install npm modules in your project
+   </p>
+  </li>
+ </ul>
+ <ul bullettype="bullets">
+  <li aria-level="1" aria-posinset="1">
+   <p>
+    Installing a package as a dev dependency
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="2">
+   <p>
+    Start command
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="3">
+   <p>
+    Updating npm version
+   </p>
+  </li>
+  <li aria-level="1" aria-posinset="4">
+   <p>
+    Navigating around the package.json file
+   </p>
+  </li>
+ </ul>
+ <p>
+  Once you have become confident with these skills, you’ll be in a better position to learn and apply React concepts and prepare yourself for development of React apps.
+ </p>
+ <p>
+  T​o refresh your knowledge of JavaScript and the basics of Node and npm, please visit Meta course titled:
+  <a href="https://www.coursera.org/learn/programming-with-javascript" title="Programming with JavaScript">
+   Programming with JavaScript
+  </a>
+  .
+ </p>
+ <p>HTML, CSS සහ JavaScript වල මූලික කරුණු ඔබ දන්නවාද?  සමහරවිට ඔබ වෙනත් පාඨමාලාවකින් මෙම තාක්ෂණයන් ගැන ඉගෙන ගත්තා.  ඕනෑම ආකාරයකින්, ඉක්මන් සාරාංශයක් ප්රයෝජනවත් වනු ඇත, එබැවින් අපි මූලික HTML, CSS සහ JavaScript මූලධර්ම සහ භාවිතයන් ගවේෂණය කරමු.
+
+    මෙම කියවීමේදී, අපි ප්‍රායෝගික ප්‍රවේශයක් ගනිමු, සහ ප්‍රතික්‍රියා ඉගෙනීමට පෙර ඔබට පහසු වීමට අවශ්‍ය සංවර්ධන ක්‍රම කිහිපයක් නැවත බලමු.
+   
+    ප්‍රතික්‍රියා මූලික කරුණු පිළිබඳ මෙම පා course මාලාවෙන් උපරිම ප්‍රයෝජන ලබා ගැනීමට, ඔබ මුලින්ම JavaScript හි මූලික ක්‍රම සහ සංකල්ප තේරුම් ගත යුතුය.  එසේ නොමැතිනම්, ඔබ ඇවිදීමට පෙර ධාවනය කිරීමට ඉගෙන ගන්නා දරුවෙකු ලෙස ඔබට හැඟෙන්නට පුළුවන.  ප්‍රතික්‍රියා යනු පරිශීලක අතුරුමුහුණත් ගොඩනැගීම සඳහා ප්‍රකාශනාත්මක, කාර්යක්ෂම සහ නම්‍යශීලී ජාවාස්ක්‍රිප්ට් පුස්තකාලයකි.  එය "සංරචක" ලෙස හඳුන්වන කුඩා සහ හුදකලා කේත කොටස් වලින් සංකීර්ණ UI රචනා කිරීමට ඔබට ඉඩ සලසයි.
+   
+    සාමාන්‍යයෙන් ES6 ලෙස හඳුන්වන නවීන ජාවාස්ක්‍රිප්ට් විශේෂාංග භාවිතයෙන් ප්‍රතික්‍රියා යෙදුම් ගොඩනගා ඇත.  සංවර්ධකයින් සිං පේජ් යෙදුම් සංවර්ධනය කිරීමට ප්‍රතික්‍රියා භාවිතා කරයි.  තවද ඔබට React Native සමඟ ජංගම යෙදුම් සංවර්ධනය කළ හැකිය.
+   
+    අභිලාෂකාමී සංවර්ධකයෙකු ලෙස, ඔබට ජාවාස්ක්‍රිප්ට් සහ ප්‍රතික්‍රියා සම්බන්ධයෙන් 'ඔබ යන විට ඉගෙන ගන්න' තෝරා ගත හැකිය.  නමුත් මෙය ඔබගේ ඵලදායිතාවයට උදව් නොකරන අතර සමහර විට ඔබව කලකිරීමට පත් කරයි.  මෙයට හේතුව ඔබ සාමාන්‍ය ජාවාස්ක්‍රිප්ට් වන කේතය හෝ ක්‍රියාකාරීත්වය හෝ ප්‍රතික්‍රියා කරන කේතය ව්‍යාකූල කළ හැකි බැවිනි.
+   
+    උදාහරණයක් ලෙස, ජාවාස්ක්‍රිප්ට් පිළිබඳ සවිමත් මූලික දැනුමක් සමඟින්, ඔබට ජාවාස්ක්‍රිප්ට් ඊඑස් 6 සහ ප්‍රතික්‍රියා කේතය ඉක්මනින් හඳුනාගත හැකිය.  තවද මෙම පාඨමාලාව පුරාවටම, සමහර මිත්‍රශීලී සිහිකැඳවීම් සමඟින් ඔබට උපකාර වනු ඇත.
+   
+    එසේම, ඔබ HTML සහ CSS කේත ඇතුළත් පරිශීලක අතුරුමුහුණත් තැනීමට React භාවිතා කරන බව මතක තබා ගන්න.
+   
+    එබැවින් ප්‍රතික්‍රියා ඉගෙන ගැනීමට අවශ්‍ය මූලික HTML දැනුමෙන් පටන් ගනිමු.
+   
+    HTML
+    වෙබ් පිටු වල ව්‍යුහය විස්තර කිරීමට HTML භාවිතා කරන බව මතක තබා ගන්න.  HTML ලේඛනයක් "ලකුණු කිරීම" සඳහා සංවර්ධකයින් HTML මූලද්‍රව්‍ය ඔවුන්ගේ විවෘත කිරීමේ සහ අවසන් කිරීමේ ටැග් සමඟ භාවිතා කරයි.
+   
+    මෙම මූලද්‍රව්‍ය වෙබ් පිටුවක ව්‍යුහය සාදන අතර වෙබ් බ්‍රවුසරයට පෙන්විය යුතු දේ විස්තර කරයි.  HTML සම්බන්ධයෙන් දැන ගැනීම වැදගත් වන්නේ:
+   
+    වෙබ් බ්‍රවුසරයේ HTML හි අරමුණ,
+   
+    HTML ටැග් භාවිතය සහ නිවැරදි වාක්‍ය ඛණ්ඩය,
+   
+    සහ වෙබ් ලේඛනයක HTML මූලද්‍රව්‍ය භාවිතා කරන ආකාරය.
+   
+    ඔබ HTML ගැන කතා කරන විට දැනගත යුතු තවත් වැදගත් සංකල්පයක් වන්නේ Document Object Model, හෝ DOM ය.
+   
+    පරිශීලකයින්ට වෙබ් පිටුවක ඇති අංග සමඟ අන්තර් ක්‍රියා කිරීමට හැකි විය යුතුය.  මෙයින් අදහස් කරන්නේ HTML ලේඛනයක් ජාවාස්ක්‍රිප්ට් කේතයට විමසා යාවත්කාලීන කළ හැකි ආකාරයට නිරූපණය කළ යුතු බවයි.  එය DOM හි කාර්යයයි.  එය ඔබගේ HTML ගොනුවේ ඇති වස්තූන්ගේ ආකෘතියකි.
+   
+    අන්තර්ගතය යාවත්කාලීන කිරීමට, සිදුවීම් සැකසීමට සහ HTML මූලද්‍රව්‍ය සජීවීකරණය කිරීමට වෙබ් සංවර්ධකයින් JavaScript හරහා DOM සමඟ අන්තර් ක්‍රියා කරයි.
+   
+    ඔබ ප්‍රතික්‍රියා ඉගෙනීමට පෙර, පහත HTML ටැග් සහ සංකල්ප සමඟ ඔබ සැපපහසු වීම සුදුසුය
+   
+    පිරිසැලසුම් විලාසය
+    <html>
+   
+    <හිස>
+   
+    <ශරීරය>
+   
+    <div>
+   
+    පෙළ හැඩතල ගැන්වීම සහ ලැයිස්තු
+    <h1>…<h6>
+   
+    <p>
+   
+    <ul><li>
+   
+    <b><i>
+   
+    පින්තූර සහ සබැඳි
+    <img src="">
+   
+    <a href="">
+   
+    සම්බන්ධ කිරීම සහ මෙටා
+    <link>
+   
+    <මාතෘකාව>
+   
+    <මෙටා>
+   
+    අර්ථකථනය
+    <ශීර්ෂකය>
+   
+    CSS
+    CSS (Cascading Style Sheets) යනු ඔබ HTML මෝස්තර කිරීමට භාවිතා කරන කේතයයි.  ඔබ ප්‍රතික්‍රියා ඉගෙනීමට පෙර මූලික CSS සංකල්ප ගැන හුරුපුරුදු විය යුතුය.  මෙයට හේතුව ඔබට ඔබේ ප්‍රතික්‍රියා සංරචක ද හැඩගැන්වීමට අවශ්‍ය වන අතර මූලික CSS දැනුම ඔබේ ඉගෙනුම් ගමනට උපකාරී වනු ඇත.
+   
+    ඔබ ප්‍රතික්‍රියා ඉගෙන ගැනීමට පෙර, ඔබ මෙම CSS මෝස්තර විකල්ප සමඟ සැපපහසු බව සහතික කර ගන්න:
+   
+    අකුරු හැඩගැන්වීම (අකුරු ප්රමාණය, අකුරු වර්ණය, ආදිය)
+   
+    Flex Box Layout (CSS Flex Box Layout භාවිතා කරන අයිතමවල පිරිසැලසුම)
+   
+    CSS තේරීම්
+   
+    පිහිටීම, පිරවුම්, මායිම් සහ සංදර්ශකය
+   
+    වර්ණ, පසුබිම සහ අයිකන
+   
+    ඔබට HTML සහ CSS පිළිබඳ ඔබේ දැනුම ප්‍රබෝධමත් කළ හැක්කේ: ඉදිරි-අවසාන සංවර්ධනය පිළිබඳ හැඳින්වීම යන මෙටා පාඨමාලාවෙන්
+   
+    JavaScript මූලධර්ම සහ ES6
+    ප්‍රතික්‍රියා සම්පූර්ණයෙන්ම JavaScript වලින් ලියා ඇති අතර ES6 වන JavaScript හි වඩාත් නවීන අනුවාදය භාවිතා කරයි.  ප්‍රතික්‍රියා ඉගෙන ගන්නා අතරතුර, ඔබ දැනටමත් JavaScript මූලික කරුණු දැන සිටිය යුතුය.
+   
+    JavaScript යනු ක්‍රමලේඛන භාෂාව වන අතර React යනු JavaScript UI පුස්තකාලයකි.  මෙයින් අදහස් කරන්නේ පළමු පියවර වන්නේ JavaScript හි ප්‍රවීණ වීමයි.මෙන්නඔබ ඔබේ ගමන ඉගෙනීම ප්‍රතික්‍රියා කිරීම ආරම්භ කිරීමට පෙර ඔබට පහසු විය යුතු JavaScript මාතෘකා කිහිපයක් මෙන්න.
+
+    දත්ත වර්ග
+   
+    var, let සහ const භාවිතා කිරීම
+   
+    කොන්දේසි සහ ලූප
+   
+    වස්තූන්, අරා සහ කාර්යයන් භාවිතා කිරීම
+   
+    ES6 ඇරෝ ක්‍රියා කරයි
+   
+    Map(), forEach() සහ පොරොන්දු වැනි In-built functions.
+   
+    අරා සහ වස්තු විනාශ කිරීම
+   
+    දෝෂ හැසිරවීම
+   
+    පැකේජ කළමනාකරු (Node + npm)
+    ප්‍රතික්‍රියා යනු UI පුස්තකාලයක් වන අතර, ඔබේ ප්‍රතික්‍රියා යෙදුමට වෙනත් පැකේජ එක් කිරීමට අවශ්‍ය වන අවස්ථා බොහෝමයක් ඔබට හමුවනු ඇත.  JavaScript හි පැකේජයක මොඩියුලයකට අවශ්‍ය සියලුම ගොනු අඩංගු වේ.  මෙම පැකේජ ඵලදායි ලෙස ස්ථාපනය කිරීමට සහ ඒවායේ පරායත්තතා කළමනාකරණය කිරීමට ඔබට NPM (Node Package Manager) වැනි පැකේජ කළමනාකරු භාවිතා කළ හැක.
+   
+    ඔබට Node.js ස්ථාපනය කිරීමෙන් npm ස්ථාපනය කළ හැක, එය ස්වයංක්‍රීයව npm ස්ථාපනය කරයි.
+   
+    ඔබේ ප්‍රතික්‍රියා යෙදුම තුළ පැකේජ ස්ථාපනය කිරීමට ඔබ npm භාවිතා කරන බැවින්, ඔබේ පැකේජ කළමනාකරු ලෙස npm භාවිතා කිරීම ඔබට පහසු විය යුතුය.  ඔබ මෙම පාඨමාලාව ආරම්භ කිරීමට පෙර npm සමඟ පහත සඳහන් දේ කරන්නේ කෙසේද යන්න පිළිබඳව ඔබ දැනුවත් බව සහතික කර ගන්න.
+   
+    ඔබගේ ව්‍යාපෘතියේ npm මොඩියුල ස්ථාපනය කිරීමට ස්ථාපන විධානය
+   
+    සංවර්ධක පරායත්තතාවයක් ලෙස පැකේජයක් ස්ථාපනය කිරීම
+   
+    විධානය ආරම්භ කරන්න
+   
+    npm අනුවාදය යාවත්කාලීන කිරීම
+   
+    package.json ගොනුව වටා සැරිසැරීම
+   
+    ඔබ මෙම කුසලතා සමඟ විශ්වාස කළ පසු, ප්‍රතික්‍රියා සංකල්ප ඉගෙන ගැනීමට සහ යෙදීමට සහ ප්‍රතික්‍රියා යෙදුම් සංවර්ධනය සඳහා ඔබම සූදානම් වීමට ඔබට වඩා හොඳ තත්ත්වයක සිටිනු ඇත.
+   
+    ජාවාස්ක්‍රිප්ට් පිළිබඳ ඔබේ දැනුම සහ නෝඩ් සහ එන්පීඑම් හි මූලික කරුණු නැවුම් කිරීමට, කරුණාකර මෙටා පාඨමාලාවට පිවිසෙන්න: ජාවාස්ක්‍රිප්ට් සමඟ ක්‍රමලේඛනය .</p>
+</co-content>
+<style>
+ body {
+    padding: 50px 85px 50px 85px;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 5px 20px;
+    text-align: left;
+}
+input {
+    margin: 10px;
+}
+
+th {
+    font-weight: bold;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+pre {
+    display: block;
+    margin: 20px;
+    background: #424242;
+    color: #fff;
+    font-size: 13px;
+    white-space: pre-wrap;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+}
+</style>
+<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ['$','$'] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>

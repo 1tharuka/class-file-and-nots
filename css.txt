@@ -1,0 +1,8 @@
+line hitg css = chada dakak atara pratraya
+postiong = relatew => tyan tanta saphe 
+           apsolod => web left and right con ake edan
+           fliex => fliex wans wen na
+
+opacity = brinas
+visibility: hidden = displa non vga habe eda eteri
+

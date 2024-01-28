@@ -1,0 +1,12 @@
+div{
+    color: red;
+}
+/* no use parat color */
+p{ 
+     /* pointer-events: none; */
+     /* pointer-events: all; */
+     pointer-events: fill;
+    color:initial;
+}/* clik krata psa oulaine na */
+input{outline: none;}
+input{border: none;}
